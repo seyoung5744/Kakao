@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kakaiMainColor"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity.JoinMember">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src = "@drawable/logo"/>
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/joinoutline"
+        android:paddingLeft="10dp"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:hint="카카오 계정(이메일)"/>
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/joinoutline"
+        android:paddingLeft="10dp"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:hint="이름"/>
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/joinoutline"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:hint="비밀번호"/>
+    <EditText
+        android:id="@+id/confirmPasswordEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/joinoutline"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:hint="비밀번호 확인"/>
+
+    <Button
+        android:id="@+id/joinButon"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/join_button_outline"
+        android:onClick="onClick"
+        android:text="가입하기"/>
+</LinearLayout>
