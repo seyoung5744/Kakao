@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionbar_search"
+        android:icon="@drawable/ic_search_24px"
+        android:title="Search"
+        app:showAsAction="always"
+        android:theme = "@style/AppTheme"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/actionbar_person_add"
+        android:icon="@drawable/ic_speech_bubble_add"
+        android:title="Person add"
+        android:theme = "@style/AppTheme"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/menuitem_bottombar_people"
+    android:icon="@drawable/ic_person_outline_black_40dp"
+    android:title="people"
+    app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menuitem_bottombar_chat"
+        android:icon="@drawable/ic_speech_bubble_23dp"
+        android:title="chatting"
+
+        app:showAsAction="always"/>
+
+</menu>
